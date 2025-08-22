@@ -67,10 +67,12 @@ body {
   /* ریسپانسیو برای موبایل */
   @media (max-width: 480px) {
     .container {
+        max-width: 90%;
+        margin: 100px auto;
         border-radius: 15px;
         box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        background: wheat;
-      padding: 30px 4px;
+        background: #e0e0e0;
+        padding: 20px 15px;
     }
     .profile-img {
       width: 120px;
